@@ -1,0 +1,29 @@
+.item_Color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 5px;
+    width: 200px;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.item_Color div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.item_Color .div-1{
+    background-color: #000000;
+}
+.item_Color .div-2{
+    background-color: #4f4639;
+}
+.item_Color .div-3{
+    background-color: #513e0e;
+}
+
+.highlighted {
+    border: 2px solid #ffffff;
+}

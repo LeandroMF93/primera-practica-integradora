@@ -1,0 +1,59 @@
+.container_Categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+    width: 100%;
+    background-color: #fbf6f6;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.container_Categoria h3{
+    color: #4f4e4e;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+}
+.container_Categoria div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.categoria{
+    width: 400px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 10px 38px 2px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 0px 10px 38px 2px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 10px 38px 2px rgba(0,0,0,0.18);
+}
+.categoria:hover{
+    transform: scale(0.9);
+}
+.container_Categoria a{
+    text-decoration: none;
+}
+.caballeros{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../public/images/caballero.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.damas{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('../../../public/images/dama.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.categoria h2{
+    color: #e5dada;
+}

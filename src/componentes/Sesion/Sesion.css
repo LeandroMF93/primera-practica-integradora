@@ -1,0 +1,30 @@
+.inicio_Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-1{
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #e5dada;
+    color: #e5dada;
+}
+.button-1:hover{
+    background-color: #e5dada;
+    color: rgb(145, 95, 54);
+}
+.button-2{
+    padding: 10px 15px 10px 15px;
+    background-color: #e5dada;
+    border-radius: 25px;
+    border: 1px solid #e5dada;
+    color: #3d3e40;
+}
+.button-2:hover{
+    background-color: rgb(145, 95, 54);
+    color: #e5dada;
+}

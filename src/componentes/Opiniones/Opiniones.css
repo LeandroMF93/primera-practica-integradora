@@ -1,0 +1,24 @@
+.container_Opiniones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+.opiniones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 45px;
+}
+.container_Opiniones h2{
+    color: #4f4e4e;
+    font-family: 'Abril Fatface', cursive;
+}
+.container_Opiniones p{
+    width: 650px;
+    text-align: center;
+    color: #4f4e4e;
+}

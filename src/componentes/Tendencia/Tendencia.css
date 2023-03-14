@@ -1,0 +1,27 @@
+.container_Tendencias{
+    max-width: 100%;
+    padding: 25px;
+}
+.container_Tendencias img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.slick-track{
+    display: flex !important;
+    gap: 10px !important;
+}
+.container_Tendencias h2{
+    color: rgb(145, 95, 54);
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+.slick-arrow{
+    display: none !important;
+}
+.slick-dots ::before{
+    font-size: 10px !important;
+    color: rgb(145, 95, 54) !important;
+}

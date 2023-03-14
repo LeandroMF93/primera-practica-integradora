@@ -1,0 +1,22 @@
+.item_Talla{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    flex-direction: row;
+}
+.item_Talla div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    pad: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.3px solid #000000;
+}
+
+.item_Talla .highlighted {
+    border: 2px solid #000000;
+}

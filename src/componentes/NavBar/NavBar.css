@@ -1,0 +1,137 @@
+.container_nav{
+    top: 0;
+    position: fixed;
+    padding: 25px 50px 25px 50px;
+    margin: 0px;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    transition: all 0.5s;
+}
+.container_nav a{
+    text-decoration: none;
+    color: #e5dada;
+}
+.container_nav a:hover{
+    color: #ffffff;
+}
+
+
+.enlace-activo{
+    text-decoration: underline 3px;
+    color: rgb(145, 95, 54);
+}
+.container_nav__body__links{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    letter-spacing: 3px;
+    margin-left: 10px;  
+}
+.container_nav__body__links li{
+    margin-right: 25px;
+    padding: 3px;
+    list-style: none;
+    border-radius: 25px;
+    transition: all 0.4s;
+}
+
+p{
+    right: 25px;
+    font-size: 18px;
+    color: #e5dada;
+    padding: 5px;
+}
+.container_nav__body__cart{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_nav__body__cart .icon{
+    color: rgb(145, 95, 54);
+}
+
+.lines{
+    display: none;
+    font-size: 30px;
+    color: #3d3e40;
+}
+.navbar--responsive{
+    display: none;
+}
+.scrolled a{
+    color: rgb(145, 95, 54);
+}
+.contador {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 650px){
+    .container_nav{
+        position: fixed;
+        top: 0;
+        min-width: 100%;
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .container_nav__body__links{
+        display: none;
+    }
+    
+    .navbar--open{
+		position: fixed;
+		display: flex;
+        justify-content: top;
+        align-items: flex-end; ;
+        flex-direction: column;
+        width: 75%;
+        right: 0;
+        height: 100vh;
+        top: 0;
+        gap: 20px;
+        padding: 25px;
+        list-style: none;
+        transition: all .7s;
+        background-color: rgba(39, 31, 31, 1);
+	}
+    .navbar--open h2{
+        color: #ffffff;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .container_links--responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 30px;
+        list-style: none;
+        color: #ffffff;
+    }
+    .container_links--responsive li a{
+        color: #ffffff;
+    }
+    
+    .lines{
+		display: inline-block;
+        margin-bottom: 20px;
+        color: #000000;
+	}
+    
+}

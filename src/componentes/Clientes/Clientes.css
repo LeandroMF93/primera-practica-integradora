@@ -1,0 +1,35 @@
+.cliente{
+    border: 1px solid rgb(145, 95, 54);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+}
+.cliente_Avatar img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cliente .texto{
+    color: #4f4e4e;
+    font-size: 18px;
+    width: 300px;
+    text-align: center;
+}
+
+.cliente_Star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.cliente_Star i{
+    color: rgb(145, 95, 54);
+    font-size: 24px;
+}

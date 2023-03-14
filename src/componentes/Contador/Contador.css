@@ -1,0 +1,17 @@
+.container_amount{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    padding-left: 0px;
+}
+#amount{
+    margin: 7px;
+    margin-left: 0px;
+    background-color:#4f4e4e;
+}
+#amount:hover{
+    background-color: rgb(145, 95, 54);
+    color: #e5dada;
+}

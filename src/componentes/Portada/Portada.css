@@ -1,0 +1,30 @@
+.container_Inicio{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../public/images/inicio.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 50px;
+}
+.inicio_title{
+margin-top: 180px;
+gap: 20px;
+max-width: 500px;
+}
+.inicio_title h1{
+    font-size: 60px;
+    color: #e5dada;
+    letter-spacing: 5px;
+}
+.inicio_title H2{
+    color: #e5dada;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.inicio_title p{
+    color: rgb(145, 95, 54);
+}
